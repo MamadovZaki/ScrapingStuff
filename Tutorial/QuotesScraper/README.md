@@ -19,6 +19,7 @@ Use this command to put the spider to work, go to the project’s top level dire
 ```
 scrapy crawl quotes
 ```
+> Use the name that you've set in the name attribute in the spider class, for instance, if you've set name = 'quotes' then use the command above to run the spider. 
 
 3. Export the scraped data using the command line
   - The simplest way to store the scraped data is by using [Feed exports](https://docs.scrapy.org/en/latest/topics/feed-exports.html#topics-feed-exports), with the following command:
@@ -29,4 +30,4 @@ scrapy crawl quotes -O quotes.json
 4. Changing spider to recursively follow links
   - Locate where the next link is in the page
   - Use css or xpath selector to fetch it
-  - add the next the page in the parse function 
+  - add the next the page in the parse function
