@@ -1,6 +1,6 @@
 import scrapy
 
-class QuotesSpider(scraper.Spider):
+class QuotesSpider(scrapy.Spider):
     """
     name: identifies the Spider. It must be unique within a project, that is, you can’t set the same name for different Spiders.
 
