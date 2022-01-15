@@ -25,3 +25,8 @@ scrapy crawl quotes
 ```
 scrapy crawl quotes -O quotes.json
 ```
+
+4. Changing spider to recursively follow links
+  - Locate where the next link is in the page
+  - Use css or xpath selector to fetch it
+  - add the next the page in the parse function 
